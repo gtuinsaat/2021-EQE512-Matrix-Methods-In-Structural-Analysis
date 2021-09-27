@@ -1,6 +1,6 @@
 ### EQE512 MATRIX METHODS IN STRUCTURAL ANALYSIS ###
 
-**Dr. Ahmet Anıl Dindar (adindar@gtu.edu.tr)** 
+**Dr. Ahmet Anıl Dindar (adindar - a t - gtu.edu.tr)** 
 
 **2021 Fall**
 
