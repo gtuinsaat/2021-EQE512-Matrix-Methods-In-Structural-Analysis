@@ -1,6 +1,6 @@
 ### EQE512 MATRIX METHODS IN STRUCTURAL ANALYSIS ###
 
-**Dr. Ahmet Anıl Dindar (adindar@gtu.edu.tr)** 
+**Dr. Ahmet Anıl Dindar (adindar - a t - gtu.edu.tr)** 
 
 **2021 Fall**
 
@@ -21,7 +21,7 @@ The programs covered in the course are:
 |Week|	Date|	Remark|	Lectures|	Assignments|
 |:---:|:---|:---|:---|:---|
 |1|27.9|Intro|Defining the solution methods in engineering calculations using matrices and development of algorithms (Gerber beams analysis) Introduction to Programming:  PYTHON, Jupyter (Fundemental Calculation Techniques)|
-|2|2.10|Theory|Development of computer algorithms (Determinate Single Degree of Freedom systems) Development of algorithms for parametric calculations and optimal solution approach (Design of the Determinate Single Degree Freedom Systems under Desing Load Combinations) Visualization of the Parametric Analysis Computations (Iteratitve computation of the constant ductility in nonlinear systems)|1|
+|2|4.10|Theory|Development of computer algorithms (Determinate Single Degree of Freedom systems) Development of algorithms for parametric calculations and optimal solution approach (Design of the Determinate Single Degree Freedom Systems under Desing Load Combinations) Visualization of the Parametric Analysis Computations (Iteratitve computation of the constant ductility in nonlinear systems)|1|
 |3|11.10|Theory|Truss Element & System - Stifness Matrix||
 |4|18.10|Theory|Beam Elemnt|2|
 |5|25.10|Theory|Frame Systems- Moment Resisting Frames||
