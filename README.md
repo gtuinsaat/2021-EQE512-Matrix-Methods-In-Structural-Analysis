@@ -1,3 +1,5 @@
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/gtuinsaat/2021-EQE512-Matrix-Methods-In-Structural-Analysis/HEAD)
+
 ### EQE512 MATRIX METHODS IN STRUCTURAL ANALYSIS ###
 
 **Dr. Ahmet Anıl Dindar (adindar - a t - gtu.edu.tr)** 
