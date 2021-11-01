@@ -18,7 +18,7 @@ import numpy as np
 
 #----------------------------------------------------------------------------
 # Truss Member Stiffness Matrix
-def truss_stiffness_creator(member_props) :
+def truss_stiffness_matrix(member_props) :
     """
     E: modulus of elasticiy
     A: Area 
@@ -120,12 +120,19 @@ def system_stiffness_matrix( k_members , joint_nodes , member_nodes , DOF = 2):
 
     return( K ) 
 
-
-##########################################################################
+#----------------------------------------------------------------------------
 
 # Applying Boundary Conditions
 
 def apply_boundary_conditions( K , U_factor , P_factor ) :
+    """
+    Inputs 
+    K : System SM 
+    U_factor : factors for limitation
+    P_factor : factors for limitation
+    Returns
+    K_bc : BC applied System SM
+    """
     K_bc = K
     for count_i , i in enumerate( U_factor ):
         for count_j , j in enumerate( P_factor):
@@ -138,3 +145,27 @@ def apply_boundary_conditions( K , U_factor , P_factor ) :
                 K_bc[count_i][count_j] = K_bc[count_i][count_j]
 
     return( K_bc )
+
+#----------------------------------------------------------------------------
+
+# Fixed end moments for beam span loads
+
+def beam_load_single_force(f,a,b):
+    L = a+b
+    s1 = f*( 1 - (3*a**2)/(L**2) + (2*a**3)/(L**3) )
+    s2 = f*( a - (2*a**2)/(L) + (a**3)/(L**2) )
+    s3 = f*( (3*a**2)/(L**2) - (2*a**3)/(L**3) )
+    s4 = f*( -1 * (a**2)/(L) + (a**3)/(L**2) )
+    
+    return(s1,s2,s3,s4)
+
+def beam_load_uniform_force(f,L):
+    s1 = (f * L) / 2
+    s2 = (f * L**2) / 12
+    s3 = (f * L) / 2
+    s4 = (-1 * f * L**2) / 12    
+    
+    return(s1,s2,s3,s4)
+
+
+##########################################################################
