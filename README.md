@@ -1,6 +1,6 @@
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/gtuinsaat/2021-EQE512-Matrix-Methods-In-Structural-Analysis/HEAD)
 
-[![NB-Viewer](https://nbviewer.org/static/img/nav_logo.svg)](https://nbviewer.org/github/gtuinsaat/2021-EQE512-Matrix-Methods-In-Structural-Analysis/tree/main/)
+[![NB-Viewer]( <img src="https://nbviewer.org/static/img/nav_logo.svg" width="200"> )](https://nbviewer.org/github/gtuinsaat/2021-EQE512-Matrix-Methods-In-Structural-Analysis/tree/main/)
 
 ### EQE512 MATRIX METHODS IN STRUCTURAL ANALYSIS ###
 
